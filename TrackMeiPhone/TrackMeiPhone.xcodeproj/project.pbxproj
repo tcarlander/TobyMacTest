@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28EC166D1238D72F006D1876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EC166C1238D72F006D1876 /* UIKit.framework */; };
+		28EC166F1238D72F006D1876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EC166E1238D72F006D1876 /* Foundation.framework */; };
+		28EC16711238D72F006D1876 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EC16701238D72F006D1876 /* CoreGraphics.framework */; };
+		28EC16731238D72F006D1876 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EC16721238D72F006D1876 /* CoreData.framework */; };
+		28EC16781238D72F006D1876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28EC16761238D72F006D1876 /* InfoPlist.strings */; };
+		28EC167A1238D72F006D1876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC16791238D72F006D1876 /* main.m */; };
+		28EC167D1238D72F006D1876 /* TrackMeiPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC167C1238D72F006D1876 /* TrackMeiPhoneAppDelegate.m */; };
+		28EC167F1238D72F006D1876 /* TrackMeiPhone.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28EC167E1238D72F006D1876 /* TrackMeiPhone.xcdatamodel */; };
+		28EC16821238D72F006D1876 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28EC16801238D72F006D1876 /* MainWindow.xib */; };
+		28EC16851238D72F006D1876 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC16841238D72F006D1876 /* MainViewController.m */; };
+		28EC16871238D72F006D1876 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28EC16861238D72F006D1876 /* MainView.xib */; };
+		28EC168A1238D72F006D1876 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC16891238D72F006D1876 /* FlipsideViewController.m */; };
+		28EC168C1238D72F006D1876 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28EC168B1238D72F006D1876 /* FlipsideView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28EC16691238D72F006D1876 /* TrackMeiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMeiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EC166C1238D72F006D1876 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28EC166E1238D72F006D1876 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28EC16701238D72F006D1876 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28EC16721238D72F006D1876 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28EC16741238D72F006D1876 /* TrackMeiPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMeiPhone-Info.plist"; sourceTree = "<group>"; };
+		28EC16751238D72F006D1876 /* TrackMeiPhone_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMeiPhone_Prefix.pch; sourceTree = "<group>"; };
+		28EC16771238D72F006D1876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28EC16791238D72F006D1876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28EC167B1238D72F006D1876 /* TrackMeiPhoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMeiPhoneAppDelegate.h; sourceTree = "<group>"; };
+		28EC167C1238D72F006D1876 /* TrackMeiPhoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMeiPhoneAppDelegate.m; sourceTree = "<group>"; };
+		28EC167E1238D72F006D1876 /* TrackMeiPhone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMeiPhone.xcdatamodel; sourceTree = "<group>"; };
+		28EC16811238D72F006D1876 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28EC16831238D72F006D1876 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28EC16841238D72F006D1876 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		28EC16861238D72F006D1876 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		28EC16881238D72F006D1876 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		28EC16891238D72F006D1876 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		28EC168B1238D72F006D1876 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EC16661238D72E006D1876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EC166D1238D72F006D1876 /* UIKit.framework in Frameworks */,
+				28EC166F1238D72F006D1876 /* Foundation.framework in Frameworks */,
+				28EC16711238D72F006D1876 /* CoreGraphics.framework in Frameworks */,
+				28EC16731238D72F006D1876 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EC16591238D72E006D1876 = {
+			isa = PBXGroup;
+			children = (
+				28EC16601238D72E006D1876 /* Models */,
+				28EC16611238D72E006D1876 /* Classes */,
+				28EC16621238D72E006D1876 /* Other Sources */,
+				28EC16631238D72E006D1876 /* Resources */,
+				28EC16641238D72E006D1876 /* Frameworks */,
+				28EC166A1238D72F006D1876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28EC16601238D72E006D1876 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28EC167E1238D72F006D1876 /* TrackMeiPhone.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		28EC16611238D72E006D1876 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28EC167B1238D72F006D1876 /* TrackMeiPhoneAppDelegate.h */,
+				28EC167C1238D72F006D1876 /* TrackMeiPhoneAppDelegate.m */,
+				28EC16831238D72F006D1876 /* MainViewController.h */,
+				28EC16841238D72F006D1876 /* MainViewController.m */,
+				28EC16881238D72F006D1876 /* FlipsideViewController.h */,
+				28EC16891238D72F006D1876 /* FlipsideViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28EC16621238D72E006D1876 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28EC16751238D72F006D1876 /* TrackMeiPhone_Prefix.pch */,
+				28EC16791238D72F006D1876 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		28EC16631238D72E006D1876 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28EC16741238D72F006D1876 /* TrackMeiPhone-Info.plist */,
+				28EC16761238D72F006D1876 /* InfoPlist.strings */,
+				28EC16801238D72F006D1876 /* MainWindow.xib */,
+				28EC16861238D72F006D1876 /* MainView.xib */,
+				28EC168B1238D72F006D1876 /* FlipsideView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		28EC16641238D72E006D1876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28EC166C1238D72F006D1876 /* UIKit.framework */,
+				28EC166E1238D72F006D1876 /* Foundation.framework */,
+				28EC16701238D72F006D1876 /* CoreGraphics.framework */,
+				28EC16721238D72F006D1876 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28EC166A1238D72F006D1876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EC16691238D72F006D1876 /* TrackMeiPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EC16681238D72E006D1876 /* TrackMeiPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EC168F1238D72F006D1876 /* Build configuration list for PBXNativeTarget "TrackMeiPhone" */;
+			buildPhases = (
+				28EC16651238D72E006D1876 /* Sources */,
+				28EC16661238D72E006D1876 /* Frameworks */,
+				28EC16671238D72E006D1876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMeiPhone;
+			productName = TrackMeiPhone;
+			productReference = 28EC16691238D72F006D1876 /* TrackMeiPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EC165B1238D72E006D1876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = WFP;
+			};
+			buildConfigurationList = 28EC165E1238D72E006D1876 /* Build configuration list for PBXProject "TrackMeiPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28EC16591238D72E006D1876;
+			productRefGroup = 28EC166A1238D72F006D1876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EC16681238D72E006D1876 /* TrackMeiPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EC16671238D72E006D1876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EC16781238D72F006D1876 /* InfoPlist.strings in Resources */,
+				28EC16821238D72F006D1876 /* MainWindow.xib in Resources */,
+				28EC16871238D72F006D1876 /* MainView.xib in Resources */,
+				28EC168C1238D72F006D1876 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EC16651238D72E006D1876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EC167A1238D72F006D1876 /* main.m in Sources */,
+				28EC167D1238D72F006D1876 /* TrackMeiPhoneAppDelegate.m in Sources */,
+				28EC167F1238D72F006D1876 /* TrackMeiPhone.xcdatamodel in Sources */,
+				28EC16851238D72F006D1876 /* MainViewController.m in Sources */,
+				28EC168A1238D72F006D1876 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28EC16761238D72F006D1876 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EC16771238D72F006D1876 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28EC16801238D72F006D1876 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EC16811238D72F006D1876 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28EC168D1238D72F006D1876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28EC168E1238D72F006D1876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		28EC16901238D72F006D1876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackMeiPhone_Prefix.pch;
+				INFOPLIST_FILE = "TrackMeiPhone-Info.plist";
+				PRODUCT_NAME = TrackMeiPhone;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28EC16911238D72F006D1876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackMeiPhone_Prefix.pch;
+				INFOPLIST_FILE = "TrackMeiPhone-Info.plist";
+				PRODUCT_NAME = TrackMeiPhone;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EC165E1238D72E006D1876 /* Build configuration list for PBXProject "TrackMeiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EC168D1238D72F006D1876 /* Debug */,
+				28EC168E1238D72F006D1876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EC168F1238D72F006D1876 /* Build configuration list for PBXNativeTarget "TrackMeiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EC16901238D72F006D1876 /* Debug */,
+				28EC16911238D72F006D1876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EC165B1238D72E006D1876 /* Project object */;
+}
