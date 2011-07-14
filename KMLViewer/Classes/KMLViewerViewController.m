@@ -58,7 +58,7 @@
     // Locate the path to the route.kml file in the application's bundle
     // and parse it with the KMLParser.
     // TODO:  Echange this for online version http://87.201.216.107/trackme/kml.kml
-    NSURL *path = [NSURL URLWithString:@"http://87.201.216.107/trackme/kml/paths.kml"] ;
+    NSURL *path = [NSURL URLWithString:@"http://87.201.216.107/trackme/kml.kml"] ;
     kml = [[KMLParser parseKMLAtURL:path]retain];
     
     // Add all of the MKOverlay objects parsed from the KML file to the map.
